@@ -1,0 +1,51 @@
+/*팝업레이어========================*/
+        .mask {
+            position:absolute;
+            left:0;
+            top:0;
+            z-index:9999;
+            background-color:#000;
+            display:none;
+        }
+        .windowStyle {
+            display: none;
+            background-color: #ffffff;
+			border:#222 3px solid;
+			width:300px;
+            height: 200px;
+            z-index:99999;
+        }
+/*팝업레이어==종료======================*/
+ul.btton1Head{
+	display:block;
+	padding:0;
+	margin:0;
+	border-bottom:#777 2px solid;
+	list-style:none;
+}
+ul.btton1Head li{
+	display:inline-block;
+	padding:8px 0;
+	text-align:center;
+	margin:0;
+	font-size:1.1em;
+	width:14%;
+}
+ul.btton1Head li:first-child{
+	width:85%;
+	font-weight:bold;
+	border-right:#ddd 1px solid;
+}
+
+
+
+div.divAllWidth{
+	display:none;
+}
+div.divAllWidth p{
+	width:90%;
+	display:block;
+	text-align:left;
+	padding:4px 0 2px;
+	margin:0 auto;
+}

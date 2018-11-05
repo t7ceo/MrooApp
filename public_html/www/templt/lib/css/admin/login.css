@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* 로그인 페이지 450 * 240*/
+#log_bg { width: 100%; height: 100%; background: url(../../../imgs/admin/login_bg.png); text-align: center; }
+	#log_box {position:relative; display: inline-block; width: 450px; height: 280px; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; background: #fff; text-align: left; top:100px}
+		#log_box .logo {margin:25px 0 0 60px; overflow:hidden;}
+		#log_box .logo span img {margin:0 0 10px 10px;}
+		#log_box .user{position:absolute; top:40px; right:60px;}
+		#log_box .user select{width:100px; border:2px solid #ccc; padding:5px;}
+		#log_box ul {position: relative; width: 315px; text-align:left; margin:25px 0 0 75px;}
+		#log_box ul li { margin-bottom: 5px; }
+		#log_box ul li input { width: 209px; background: #ebebeb; padding: 7px 15px; border: none; color: #636363; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; line-height: 1.2; }
+		#log_box ul li#btn { position: absolute; top: 0px; right:0; }
+		#log_box .btn{width:66%; margin:0 auto; padding:10px 0 0 0;}
+		#log_box .btn a{display:block; float:left; padding:5px 10px; margin:0 10px 0 0; background:url("../../../imgs/admin/login_arrow.gif") no-repeat 0 10px;}
+		#log_box .btn a:hover{text-decoration:none;}
+		#log_box p.copy { padding-top: 80px; color: #fff; font-size: 11px; font-family: '돋움'; text-align: center; }
+
+.ow-closed {position:relative;}
+
+.modal{top:150px !important; background:none !important;}
+.finder_div{display:none;position:absolute; top:-45px; height:210px; background:#fff !important; border-radius: 20px; overflow:hidden;}
+.finder_div h1{width:100%;}
+.finder_div h1 img{margin:15px;}
+.close-button {position:absolute; top:80px; right:10px;}
+
+.finder_div  .form{position:relative; width:100%; margin:0 auto;} 
+.finder_div  .form p{width:390px; margin:5px 0 5px 25px;}
+.finder_div  .form p span{display:inline-block; float:left; width:110px; line-height:32px; font-size:12px; font-weight:bold; color:#333;} 
+.finder_div  .form p input{width:298px; height:28px; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ebebeb; border-right:1px solid #ebebeb;} 
+.finder_div  .form p input.tbox_s{width:70px;} 
+.finder_div  .form p select{width:110px; height:30px;}
+.finder_div  .form p a{position:absolute; top:115px; left:165px; display:block; width:100px; height:30px; text-align:center; line-height:28px; font-size:14px; font-weight:bold; color:#fff; background:#3d74de;}
+.finder_div  .form p a:hover{text-decoration:none;}
+
+
+
+.finder_divS{display:none;position:absolute; top:0px; height:auto; background:#fff !important; border-radius: 0; overflow:hidden;}
+.finder_divS h1{width:100%;}
+.finder_divS h1 img{margin:15px;}
+.close-button {position:absolute; top:80px; right:10px;}
+
+.finder_divS  .form{position:relative; width:100%; margin:0 auto;} 
+.finder_divS  .form p{width:390px; margin:5px 0 5px 25px;}
+.finder_divS  .form p span{display:inline-block; float:left; width:110px; line-height:32px; font-size:12px; font-weight:bold; color:#333;} 
+.finder_divS  .form p input{width:298px; height:28px; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ebebeb; border-right:1px solid #ebebeb;} 
+.finder_divS  .form p input.tbox_s{width:70px;} 
+.finder_divS  .form p select{width:110px; height:30px;}
+.finder_divS  .form p a{position:absolute; top:115px; left:165px; display:block; width:100px; height:30px; text-align:center; line-height:28px; font-size:14px; font-weight:bold; color:#fff; background:#3d74de;}
+.finder_divS  .form p a:hover{text-decoration:none;}
+
+
+
+.finder_div0{display:none;position:absolute; top:12; height:auto; background:#fff !important; overflow:hidden;}
+.finder_div0 h1{width:100%;}
+.finder_div h1 img{margin:15px;}
+.close-button {position:absolute; top:80px; right:10px;}
+
+.finder_div0  .form{position:relative; width:100%; margin:0 auto;} 
+.finder_div0  .form p{width:390px; margin:5px 0 5px 25px;}
+.finder_div0  .form p span{display:inline-block; float:left; width:110px; line-height:32px; font-size:12px; font-weight:bold; color:#333;} 
+.finder_div0  .form p input{width:298px; height:28px; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ebebeb; border-right:1px solid #ebebeb;} 
+.finder_div0  .form p input.tbox_s{width:70px;} 
+.finder_div0  .form p select{width:110px; height:30px;}
+.finder_div0  .form p a{position:absolute; top:115px; left:165px; display:block; width:100px; height:30px; text-align:center; line-height:28px; font-size:14px; font-weight:bold; color:#fff; background:#3d74de;}
+.finder_div0  .form p a:hover{text-decoration:none;}
+
+
+
+.finder_div2{display:none; position:absolute; top:-120px; background-color:white; border-radius:20px; border:#ccc 1px solid; margin:0px 0 0 -57px;width:540px; height:550px;  overflow:auto;  overflow-x:hidden;}
+.finder_div2 h1 {width:100%;}
+.finder_div2 h1 img{margin:15px;}
+.finder_div2 .formJ{position:relative; width:84%; margin:30px auto 0;} 
+.finder_div2 .formJ p{width:100%; margin:15px 0 2px;}
+.finder_div2 .formJ p span{display:inline-block; float:left; width:22%; line-height:32px; font-size:12px; font-weight:bold; color:#333;} 
+.finder_div2 .formJ p input{width:77%; height:28px; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ebebeb; border-right:1px solid #ebebeb;} 
+.finder_div2 .form p input.tbox_s{width:70px;} 
+.finder_div2 .form p select{width:110px; height:30px;}
+.finder_div2 .form p a{position:absolute; top:115px; left:165px; display:block; width:100px; height:30px; text-align:center; line-height:28px; font-size:14px; font-weight:bold; color:#fff; background:#3d74de;}
+.finder_div2 .form p a:hover{text-decoration:none;}
+
+
+.finder_div3{display:none; position:absolute; top:50px; background-color:white; border-radius:20px; border:#ccc 1px solid; margin:0px 0 0 -57px;width:540px; height:550px;  overflow:auto;  overflow-x:hidden;}
+.finder_div3 h1 {width:100%;}
+.finder_div3 h1 img{margin:15px;}
+.finder_div3 .formJ{position:relative; width:84%; margin:2px auto 0;} 
+.finder_div3 .formJ p{width:100%; margin:15px 0 2px;}
+.finder_div3 .formJ p span{display:inline-block; float:left; width:22%; line-height:32px; font-size:12px; font-weight:bold; color:#333;} 
+.finder_div3 .formJ p input{width:77%; height:28px; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ebebeb; border-right:1px solid #ebebeb;} 
+.finder_div3 .form p input.tbox_s{width:70px;} 
+.finder_div3 .form p select{width:110px; height:30px;}
+.finder_div3 .form p a{position:absolute; top:115px; left:165px; display:block; width:100px; height:30px; text-align:center; line-height:28px; font-size:14px; font-weight:bold; color:#fff; background:#3d74de;}
+.finder_div3 .form p a:hover{text-decoration:none;}
+
+.close-button {position:absolute; top:10px; right:10px;}
+
+
+
+
+

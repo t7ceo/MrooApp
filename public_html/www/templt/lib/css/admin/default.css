@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face{
+font-family:ng;
+src:url(../../../ilib/font/NanumGothic.eot);
+src:local(※), url(../../../ilib/font/NanumGothic.woff) format(‘../../../ilib/font/woff’)
+}
+
+/* reset style [start] */
+html,body, iframe,h1, h2, h3, h4, h5, h6, p, blockquote,pre,button,
+q, s, dl, dt, dd, ol, ul, li, fieldset, form, input, table,tr, th ,td
+{  margin: 0; padding: 0; border:0; line-height: 1.5em; }
+
+img, fieldset{border:0 none;}
+
+html,body{height:100%;}
+
+body {
+	margin:0; /* 20150210 추가 */
+	font-size:75%;
+	line-height:1.8em;
+	color:#545454;
+	font-family:Verdana, Arial, AppleGothic, UnDotum, sans-serif;
+	position:relative;
+}
+
+/* Tag Standard ***********************************************************************/
+
+
+/* Tag구문(Construction) */
+strong { font-weight: bold; }
+em { font-style: normal; }
+dfn { font-style: normal; }
+cite { font-style: normal; }
+sup { font-size: .92em; }
+sub { font-size: .92em; }
+address { font-style: normal; }
+del { text-decoration: line-through; }
+button{cursor:pointer;border:none;background:none}
+
+/* common */
+ol, ul, li { list-style:none;}
+table {border-collapse:collapse; border-spacing:0;}
+
+hr {display:none;}
+
+a:link { color:#636363; text-decoration:none; }
+a:visited { color:#636363; text-decoration:none; }
+a:hover { color:#0030AE; text-decoration:underline; }
+a:active { color:#0030AE; text-decoration:underline; }
+
+span.button,
+img.button,
+a.button {
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+legend {position:absolute; visibility:hidden; overflow:hidden; width:0; height:0; font-size:0%;}
+caption {position:absolute; visibility:hidden; overflow:hidden; width:0; height:0; font-size:0%;}
+
+select{
+	background-color:#fefefe;
+}
+
+
+div#log_box div.mess{
+	position:absolute;
+	top:230px;
+	width:100%;
+	margin:0;	
+	text-align:center;
+	color:#F30;
+	font-size:1em;
+}
+
+a.button2, a.button1{
+	display:inline-block;
+	padding:6px 0;
+	text-align:center;
+	background-color:#666;
+	color:white;
+	border-radius:4px;
+	cursor:pointer;
+}
+a.button1{
+	width:34%;
+	padding:8px 0;
+	background-color:#111;
+}
+
+div.mess{
+	width:100%;
+	text-align:center;
+	color:red;
+}
+
+.titcell{
+	background-color:#fafafa;
+}
+
+
+table.onputPage{
+	border:#ccc 2px solid;
+	width:90%;
+	margin:1px 5%;
+}
+table.onputPage td{
+	width:70%;
+	padding:8px;
+	text-align: left;
+}
+
+table.onputPage td.longTd{
+ text-align:center; padding:0; border-bottom:#dedede 2px solid;
+}
+
+table.onputPage td input{
+	padding:5px 0 5px 10px;
+	border:#dedede 1px solid;
+}
+table.onputPage th{
+	width:20%;
+	background-color:#dedede;
+	padding:8px 0;
+	text-align: center;
+	border-bottom:#fff 1px solid;
+}
+table.onputPage th:last-child{
+	border-bottom::#ccc 2px solid;
+}
+
+table.onputPageList{
+	width:90%;
+	border:#ccc 2px solid;
+	margin:1px 5%;
+}
+
+table.onputPageList th{
+	background-color:#dedede;
+	padding:8px 0;
+	text-align: center;
+	border-bottom:#fff 1px solid;
+}
+table.onputPageList td{
+	padding:8px 0;
+	text-align: center;
+	border-bottom:#dedede 1px solid;
+}
+
+
+
+
+
+#viewTxtImg img, #viewTxtImg2 img {max-width:450px;}
+
+#viewTxtImg3 img, #viewTxtImg4 img {max-width:600px;}
